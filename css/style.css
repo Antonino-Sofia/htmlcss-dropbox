@@ -140,4 +140,103 @@ body.debug {
 }
 
 .debug .white {
+  border: 2px dashed black;
+}
+
+.debug .col1 {
+  background-color: aliceblue;
+}
+
+.debug #clients #brands div.square {
+  background-color: rgb(214, 130, 172);
+  border: 2px dashed black;
+}
+
+.debug #business-tools .item-tool {
+  background-color: blueviolet;
+  border: 2px dashed white;
+}
+
+.debug footer .foot-container .flex-n div.foot-col {
+  background-color: #61072b;
+}
+
+.debug footer div.language .flex-n {
+  background-color: #63d275;
+  border: 2px dashed white;
+}
+
+/* header */
+
+header {
+  height: 80px;
+  line-height: 80px;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--bg-color5);
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-n {
+  display: flex;
+}
+
+ul > li {
+  list-style-type: none;
+  border-bottom: 2px solid transparent;
+}
+
+#head-container ul > li:not(#logo):not(.btn):hover {
+  border-bottom: 2px solid var(--bg-color6);
+}
+
+.navbar-dx.flex-sb {
+  padding: 0 20px 0 0;
+}
+
+header li a,
+header li img {
+  color: var(--bg-color6);
+  text-decoration: none;
+  display: block;
+  padding: 0 20px;
+}
+
+li.btn > a {
+  color: var(--bg-color5);
+}
+
+/* jumbo */
+
+#jumbotron {
+  background-color: var(--bg-color1);
+  margin-top: 0;
+  padding-top: 110px;
+}
+
+#jumbotron .main-container .flex-n > div.col-small {
+  padding-right: 50px;
+}
+
+main .col-small .icon {
+  margin: 80px 0 20px;
+  font-size: 35px;
+}
+
+main #plane span.text,
+#jumbotron a.btn {
+  margin: 35px 0 50px;
+}
+
+#jumbotron .main-container {
+  position: relative;
+  bottom: -80px;
 }
