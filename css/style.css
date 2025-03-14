@@ -99,3 +99,45 @@ a.btn {
 .col-big {
   width: 70%;
 }
+
+.debug #head-container {
+  background-color: pink;
+}
+
+.debug .main-container,
+.debug .foot-container {
+  background-color: rgb(219, 219, 120);
+  border: 2px dashed black;
+}
+
+.debug .secondarymain-container {
+  background-color: rgb(112, 183, 216);
+  border: 2px dashed black;
+}
+
+body.debug {
+  background-color: rgb(226, 226, 226);
+}
+
+.debug ul.navbar-sx,
+.debug ul.navbar-dx {
+  background-color: #9cc1a2;
+}
+
+.debug #jumbotron {
+  background-color: rgb(200, 190, 222);
+  border: 2px dashed black;
+}
+
+.debug .col-small {
+  background-color: #ec9e38;
+  border: 2px dashed black;
+}
+
+.debug .col-big {
+  background-color: #63d275;
+  border: 2px dashed black;
+}
+
+.debug .white {
+}
